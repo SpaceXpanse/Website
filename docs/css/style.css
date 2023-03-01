@@ -358,12 +358,12 @@ h6,
 }
 
 html {
-font-size: 62.5% !important;
+    font-size: 100% !important;
 }
 
 body {
-font-size: 14px !important;
-font-size: 1.4rem !important;
+    font-size: 14px !important;
+    font-size: 1.4rem !important;
 }
 
 p { 
