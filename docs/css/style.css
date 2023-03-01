@@ -354,5 +354,5 @@ h6,
 /* SpeX  */
 .inverted {
    /*filter: invert(1) grayscale(100%) brightness(200%) !important;*/
-   font-color: #fff !important;
+   color: #fff !important;
 }
