@@ -404,3 +404,7 @@ li {
     font-size: 12px !important;
     font-size: 1.2em !important; 
 } /* =14px? */
+.nav-link {
+    color:#E6EDF4 !important;
+}
+
