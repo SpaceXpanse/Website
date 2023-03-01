@@ -358,20 +358,49 @@ h6,
 }
 
 html {
-    font-size: 100% !important;
+    font-size: 62.5% !important;
 }
 
 body {
+    font-size: 12px !important;
+    font-size: 1.2rem !important;
+}
+
+h1 {
+    font-size: 24px !important;
+    font-size: 2.4rem !important;
+}
+
+h2 {
+    font-size: 20px !important;
+    font-size: 2rem !important;
+}
+
+h3 {
+    font-size: 18px !important;
+    font-size: 1.8rem !important;
+}
+
+h4 {
+    font-size: 16px !important;
+    font-size: 1.6rem !important;
+}
+
+h5 {
     font-size: 14px !important;
     font-size: 1.4rem !important;
 }
 
+h6 {
+    font-size: 12px !important;
+    font-size: 1.4rem !important;
+}
 p { 
-    font-size: 14px !important;
-    font-size: 1.4em !important; 
+    font-size: 12px !important;
+    font-size: 1.2em !important; 
 } /* =14px */
 
 li { 
-    font-size: 14px !important;
-    font-size: 1.4em !important; 
+    font-size: 12px !important;
+    font-size: 1.2em !important; 
 } /* =14px? */
