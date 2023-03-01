@@ -350,3 +350,8 @@ h6,
 .footer .copyright a:hover {
     color: var(--dark);
 }
+
+/* SpeX  */
+.inverted {
+    filter: invert(1) grayscale(100%) brightness(200%) !important;
+}
