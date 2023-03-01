@@ -351,3 +351,8 @@ h6,
     color: var(--dark);
 }
 
+/* SpeX */
+html {
+  font-size: 14px !!important;
+}
+ 
