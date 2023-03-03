@@ -427,7 +427,8 @@ html {
   animation-delay: 2.11s;
 }
 
-#stars {
+#stars { 
+  overflow: hidden;
 /*  width: 100vw;
   height: 100vh; */
   position: relative;
@@ -443,8 +444,8 @@ html {
   position: absolute;
   width: 100vw;
   height: 100vw;
-  left: 0;
-  top: 0;
+  left: -50vw;
+  top: -50vw;
   transform-origin: center;
 }
 
