@@ -431,8 +431,8 @@ html {
 /*  width: 100vw;
   height: 100vh; */
   position: relative;
-  top: 0;
-  left: 0;
+  top: 50vw;
+  left: 50vw;
 /*  background: #000; */
   z-index: 0;
 }
@@ -446,7 +446,17 @@ html {
   left: -50vw;
   top: -50vw;
   transform-origin: center;
+}
+
+.z-1 {
   background-color: #fff;
+}
+
+.z-2 {
+  background-color: #E4E4E4;
+}
+.z-3 {
+  background-color: #AFAFAF;
 }
 
 .tile {
