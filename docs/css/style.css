@@ -441,10 +441,10 @@ html {
 .z-2,
 .z-3 {
   position: absolute;
-  width: 100vw;
-  height: 100vw;
-  left: 0;
-  top: 0;
+  width: 150vw;
+  height: 150vw;
+  left: -50vw;
+  top: -50vw;
   transform-origin: center;
 }
 
