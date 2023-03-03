@@ -469,7 +469,7 @@ html {
 }
 
 .bottom-left {
-/*  background-image: url("../img/bottomleft.png"); */
+  background-image: url("../img/bottomleft.png"); 
 }
 
 .bottom-right {
