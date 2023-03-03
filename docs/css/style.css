@@ -434,7 +434,7 @@ html {
   top: 0;
   left: 0;
 /*  background: #000; */
-  z-index: 2;
+  z-index: 0;
 }
 
 .z-1,
