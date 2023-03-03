@@ -444,8 +444,8 @@ html {
   width: 100vw;
   height: 100vw;
   left: -50vw;
-  top: -100vw;
-  transform-origin: center;
+  top: -50vw;
+/*  transform-origin: center; */
 }
 
 .z-1 {
