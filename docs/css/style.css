@@ -446,6 +446,7 @@ html {
   left: -50vw;
   top: -50vw;
   transform-origin: center;
+  background-color: #fff;
 }
 
 .tile {
