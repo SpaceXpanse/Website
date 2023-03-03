@@ -433,6 +433,38 @@
     </div>
     <!-- Roadmap End -->
 
+    <script>
+    var end = new Date('02/19/2012 10:1 AM');
+
+    var _second = 1000;
+    var _minute = _second * 60;
+    var _hour = _minute * 60;
+    var _day = _hour * 24;
+    var timer;
+
+    function showRemaining() {
+        var now = new Date();
+        var distance = end - now;
+        if (distance < 0) {
+
+            clearInterval(timer);
+            document.getElementById('countdown').innerHTML = 'EXPIRED!';
+
+            return;
+        }
+        var days = Math.floor(distance / _day);
+        var hours = Math.floor((distance % _day) / _hour);
+        var minutes = Math.floor((distance % _hour) / _minute);
+        var seconds = Math.floor((distance % _minute) / _second);
+
+        document.getElementById('days').innerHTML = days + 'days ';
+        document.getElementById('hrs').innerHTML += hours + 'hrs ';
+        document.getElementById('mins').innerHTML += minutes + 'mins ';
+        document.getElementById('secs').innerHTML += seconds + 'secs';
+    }
+
+    timer = setInterval(showRemaining, 1000);
+    </script>
 
     <!-- Token Sale Start -->
     <div class="container-xxl bg-light py-5 my-5">
@@ -444,25 +476,25 @@
             <div class="row g-3">
                 <div class="col-6 col-md-3 wow fadeIn" data-wow-delay="0.1s">
                     <div class="bg-white text-center p-3">
-                        <h1 class="mb-0">3</h1>
+                        <h1 id="days" class="mb-0">0</h1>
                         <span class="text-primary fs-5">Days</span>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 wow fadeIn" data-wow-delay="0.3s">
                     <div class="bg-white text-center p-3">
-                        <h1 class="mb-0">0</h1>
+                        <h1 id="hrs" class="mb-0">0</h1>
                         <span class="text-primary fs-5">Hours</span>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 wow fadeIn" data-wow-delay="0.5s">
                     <div class="bg-white text-center p-3">
-                        <h1 class="mb-0">0</h1>
+                        <h1 id="mins" class="mb-0">0</h1>
                         <span class="text-primary fs-5">Minutes</span>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 wow fadeIn" data-wow-delay="0.7s">
                     <div class="bg-white text-center p-3">
-                        <h1 class="mb-0">0</h1>
+                        <h1 id="secs" class="mb-0">0</h1>
                         <span class="text-primary fs-5">Seconds</span>
                     </div>
                 </div>
