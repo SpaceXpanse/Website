@@ -441,8 +441,8 @@ html {
 .z-2,
 .z-3 {
   position: absolute;
-  width: 150vw;
-  height: 150vw;
+  width: 100vw;
+  height: 100vw;
   left: -50vw;
   top: -50vw;
   transform-origin: center;
