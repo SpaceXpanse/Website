@@ -370,13 +370,13 @@ html {
   margin: -20px 0 0; /* negative fixed header height */
 }
 
-/* #title {
+#title {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-} */
+} 
 
 @keyframes slide-transparency {
   0% {
