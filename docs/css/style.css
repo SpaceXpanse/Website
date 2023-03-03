@@ -428,7 +428,6 @@ html {
 }
 
 #stars { 
-  overflow: hidden;
 /*  width: 100vw;
   height: 100vh; */
   position: relative;
@@ -445,7 +444,7 @@ html {
   width: 100vw;
   height: 100vw;
   left: -50vw;
-  top: -50vw;
+  top: -70vw;
   transform-origin: center;
 }
 
