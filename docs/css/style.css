@@ -462,7 +462,7 @@ html {
 
 .tile {
   overflow: hidden;
-  position: relaive;
+  position: relative;
   opacity: 0;
   top: 0;
   left: 0;
