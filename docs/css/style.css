@@ -434,7 +434,7 @@ html {
   top: 0;
   left: 0;
 /*  background: #000; */
-  z-index: 1000;
+  z-index: 2;
 }
 
 .z-1,
@@ -469,9 +469,9 @@ html {
 }
 
 .bottom-left {
-  background-image: url("../img/bottomleft.png");
+/*  background-image: url("../img/bottomleft.png"); */
 }
 
 .bottom-right {
-  background-image: url("../img/bottomright.png");
+/*  background-image: url("../img/bottomright.png"); */
 }
