@@ -439,8 +439,9 @@ html {
 
 .z-1,
 .z-2,
-.z-3 { 
-  position: static;
+.z-3 {
+  overflow: hidden; 
+  position: absolute;
   width: 100vw;
   height: 100vw;
   left: -50vw;
