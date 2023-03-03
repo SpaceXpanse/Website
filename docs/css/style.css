@@ -443,8 +443,8 @@ html {
   position: absolute;
   width: 100vw;
   height: 100vw;
-  left: -20vw;
-  top: -20vw;
+  left: 0;
+  top: 0;
   transform-origin: center;
 }
 
