@@ -440,7 +440,7 @@ html {
 .z-1,
 .z-2,
 .z-3 { 
-  position: relative;
+  position: static;
   width: 100vw;
   height: 100vw;
   left: -50vw;
