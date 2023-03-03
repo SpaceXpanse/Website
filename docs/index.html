@@ -434,7 +434,7 @@
     <!-- Roadmap End -->
 
     <script>
-    var end = new Date('03/31/2023 0:0 AM');
+    var end = new Date('08/31/2023 0:0 AM');
 
     var _second = 1000;
     var _minute = _second * 60;
@@ -448,18 +448,18 @@
         if (distance < 0) {
 
             clearInterval(timer);
-            document.getElementById('days').innerHTML = '-!';
+            document.getElementById('days').innerHTML = '-';
 
             return;
         }
         var days = Math.floor(distance / _day);
-        var hours = Math.floor((distance % _day) / _hour);
-        var minutes = Math.floor((distance % _hour) / _minute);
+        //var hours = Math.floor((distance % _day) / _hour);
+        //var minutes = Math.floor((distance % _hour) / _minute);
         //var seconds = Math.floor((distance % _minute) / _second);
 
         document.getElementById('days').innerHTML = days + ' days ';
-        document.getElementById('hrs').innerHTML += hours + ' hrs ';
-        document.getElementById('mins').innerHTML += minutes + ' mins ';
+        //document.getElementById('hrs').innerHTML += hours + ' hrs ';
+        //document.getElementById('mins').innerHTML += minutes + ' mins ';
         //document.getElementById('secs').innerHTML += seconds + 'secs';
     }
 
@@ -471,7 +471,7 @@
         <div class="container py-5">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <h1 class="display-6 text-light">Countdown</h1>
-                <p class="text-primary fs-5 mb-5">till the end of current iteration</p>
+                <p class="text-primary fs-5 mb-5">till the end of Stage 1</p>
             </div>
             <div class="row g-3">
                 <div class="col-6 col-md-3 wow fadeIn" data-wow-delay="0.1s">
@@ -480,19 +480,19 @@
                         <!-- <span class="text-primary fs-5">Days</span> -->
                     </div>
                 </div>
-                <div class="col-6 col-md-3 wow fadeIn" data-wow-delay="0.3s">
+                <!-- <div class="col-6 col-md-3 wow fadeIn" data-wow-delay="0.3s">
                     <div class="bg-white text-center p-3">
                         <h1 id="hrs" class="mb-0">0</h1>
-                        <!-- <span class="text-primary fs-5">Hours</span> -->
+                        <span class="text-primary fs-5">Hours</span> 
                     </div>
                 </div>
                 <div class="col-6 col-md-3 wow fadeIn" data-wow-delay="0.5s">
                     <div class="bg-white text-center p-3">
                         <h1 id="mins" class="mb-0">0</h1>
-                        <!-- <span class="text-primary fs-5">Minutes</span> -->
+                        <span class="text-primary fs-5">Minutes</span> 
                     </div>
                 </div>
-               <!-- <div class="col-6 col-md-3 wow fadeIn" data-wow-delay="0.7s">
+               <div class="col-6 col-md-3 wow fadeIn" data-wow-delay="0.7s">
                     <div class="bg-white text-center p-3">
                         <h1 id="secs" class="mb-0">0</h1>
                         <span class="text-primary fs-5">Seconds</span>
