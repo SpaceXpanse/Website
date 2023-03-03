@@ -439,10 +439,10 @@ html {
 
 .z-1,
 .z-2,
-.z-3 {
-  position: absolute;
-  width: 150vw;
-  height: 150vw;
+.z-3 { 
+  position: fixed;
+  width: 100vw;
+  height: 100vw;
   left: -50vw;
   top: -50vw;
   transform-origin: center;
@@ -454,7 +454,7 @@ html {
 
 .z-2 {
   background-color: #E4E4E4;
-}
+} 
 
 .z-3 {
   background-color: #AFAFAF;
