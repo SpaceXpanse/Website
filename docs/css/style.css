@@ -444,7 +444,7 @@ html {
   width: 100vw;
   height: 100vw;
   left: -50vw;
-  top: -50vw;
+  top: -100vw;
   transform-origin: center;
 }
 
@@ -462,7 +462,7 @@ html {
 
 .tile {
   overflow: hidden;
-  position: relative;
+  position: absolute;
   opacity: 0;
   top: 0;
   left: 0;
