@@ -448,7 +448,7 @@ html {
   transform-origin: center;
 }
 
-.z-1 {
+/* .z-1 {
   background-color: #fff;
 }
 
@@ -459,7 +459,7 @@ html {
 .z-3 {
   background-color: #AFAFAF;
 }
-
+*/
 .tile {
   overflow: hidden;
   position: absolute;
@@ -474,20 +474,20 @@ html {
 
 .top-left {
   background-image: url("../img/topleft.png");
-  background-color: #FFFFE2;
+/*  background-color: #FFFFE2; */
 }
 
 .top-right {
   background-image: url("../img/topright.png");
-  background-color: #FEC195; 
+/*  background-color: #FEC195; */
 }
 
 .bottom-left {
   background-image: url("../img/bottomleft.png");
-  background-color: #CAFF8C; 
+/*  background-color: #CAFF8C; */
 }
 
 .bottom-right {
   background-image: url("../img/bottomright.png"); 
-  background-color: #9E3F7D;
+/*  background-color: #9E3F7D; */
 }
