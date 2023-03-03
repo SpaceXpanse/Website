@@ -461,17 +461,17 @@ html {
 }
 
 .top-left {
-  background-image: url("./img/topleft.png");
+  background-image: url("../img/topleft.png");
 }
 
 .top-right {
-  background-image: url("./img/topright.png");
+  background-image: url("../img/topright.png");
 }
 
 .bottom-left {
-  background-image: url("./img/bottomleft.png");
+  background-image: url("../img/bottomleft.png");
 }
 
 .bottom-right {
-  background-image: url("./img/bottomright.png");
+  background-image: url("../img/bottomright.png");
 }
