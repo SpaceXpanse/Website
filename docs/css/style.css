@@ -431,8 +431,8 @@ html {
 /*  width: 100vw;
   height: 100vh; */
   position: relative;
-  top: 50vw;
-  left: 50vw;
+  top: 0;
+  left: 0;
 /*  background: #000; */
   z-index: 0;
 }
@@ -473,16 +473,20 @@ html {
 
 .top-left {
   background-image: url("../img/topleft.png");
+  background-color: #FFFFE2;
 }
 
 .top-right {
-  background-image: url("../img/topright.png"); 
+  background-image: url("../img/topright.png");
+  background-color: #FEC195; 
 }
 
 .bottom-left {
-  background-image: url("../img/bottomleft.png"); 
+  background-image: url("../img/bottomleft.png");
+  background-color: #CAFF8C; 
 }
 
 .bottom-right {
   background-image: url("../img/bottomright.png"); 
+  background-color: #9E3F7D;
 }
