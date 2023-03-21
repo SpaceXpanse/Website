@@ -580,7 +580,7 @@ html {
 .btn-play span {
     display: block;
     position: relative;
-    z-index: 3;
+    z-index: 9;
     width: 0;
     height: 0;
     left: 3px;
@@ -625,3 +625,4 @@ html {
     background: #000000;
     opacity: 1;
 }
+   
