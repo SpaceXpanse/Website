@@ -526,6 +526,7 @@ html {
   background-color: transpasent;
   color: var(--primary);
   padding: 16px 32px;
+  z-index: 10;
 }
 
 /*** About ***/
@@ -580,7 +581,7 @@ html {
 .btn-play span {
     display: block;
     position: relative;
-    z-index: 99;
+    z-index: 3;
     width: 0;
     height: 0;
     left: 3px;
