@@ -628,7 +628,7 @@ html {
 }
 
 /*** Header ***/
-.carousel-caption {
+/*.carousel-caption {
     top: 0;
     left: 0;
     right: 0;
@@ -637,7 +637,7 @@ html {
     align-items: center;
     background: rgba(0, 0, 0, .1);
     z-index: 1;
-}
+}   */
 
 .carousel-control-prev,
 .carousel-control-next {
