@@ -509,13 +509,14 @@ html {
   position: absolute;
   top: 50%;
   left: 50%;
+  z-index: 1000;  
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
 
 .overlay-container:hover .overlay-image {
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .overlay-container:hover .overlay-middle {
@@ -526,7 +527,6 @@ html {
   background-color: transpasent;
   color: var(--primary);
   padding: 16px 32px;
-  z-index: 1000;
 }
 
 /*** About ***/
