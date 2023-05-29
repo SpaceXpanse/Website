@@ -666,3 +666,7 @@ html {
         object-fit: cover;
     }
 }
+
+.bi-arrow-up {
+    padding-bottom: 60px !important;    
+}
