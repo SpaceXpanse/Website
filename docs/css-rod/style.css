@@ -238,7 +238,7 @@ header {
   width: 100%;
   min-height: 100%;
   overflow-y: hidden;
-  background: url("../images/header-bg.jpg");
+  background: url("../images-rod/header-bg.jpg");
   background-size:100%;
   color: white;
 }
@@ -249,7 +249,7 @@ header:after {
   top:0;
   width:100%;
   height:100%;
-  background:rgba(0,0,0,0) url("../images/overaly.png");
+  background:rgba(0,0,0,0) url("../images-rod/overaly.png");
   opacity:0.8;
 }
 header .container {
@@ -356,7 +356,7 @@ section.bwt-about blockquote:before {
 /* BUY RATE * -------------------------- */
 
 section.bwt-buyrate {
-  background: #1B2855  url(../images/trade-bg.png);
+  background: #1B2855  url(../images-rod/trade-bg.png);
 }
 section.bwt-buyrate .bwt-section-title{
   color: #fff;
