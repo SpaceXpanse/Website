@@ -923,3 +923,7 @@ html {
     margin-bottom: 35px !important;    
 } 
    */
+.hidden {
+    visibility: hidden !important;
+    display: none !important;
+}
