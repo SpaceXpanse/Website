@@ -93,8 +93,8 @@
     });
 
 
-    // Testimonials carousel
-    $(".testimonial-carousel").owlCarousel({
+    // Project and Testimonials carousel
+    $(".project-carousel, .testimonial-carousel").owlCarousel({
         autoplay: true,
         smartSpeed: 1000,
         margin: 25,
