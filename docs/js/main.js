@@ -68,6 +68,7 @@
         margin: 25,
         loop: true,
         dots: false,
+        autoplayHoverPause: true,
         nav: true,
         navText : [
             '<i class="bi bi-chevron-left"></i>',
