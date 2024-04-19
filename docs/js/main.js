@@ -101,7 +101,7 @@
         loop: true,
         center: true,
         dots: true,
-        autoplayHoverPause: true
+        autoplayHoverPause: true,
         nav: true,
         navText : [
             '<i class="bi bi-chevron-left"></i>',
