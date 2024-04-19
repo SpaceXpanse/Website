@@ -100,7 +100,7 @@
         margin: 25,
         loop: true,
         center: true,
-        dots: true,
+        dots: false,
         autoplayHoverPause: true,
         nav: true,
         navText : [
