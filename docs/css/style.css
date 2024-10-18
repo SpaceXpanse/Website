@@ -891,6 +891,8 @@ html {
     display: none !important;
 }
 
-.opacity {
-  background-color: rgb(0 0 0 / .1);
+.slide-box {
+    background-color: rgb(0 0 0 / .1);
+    min-height: 450px;
+    padding: 40px;
 }
