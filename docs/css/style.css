@@ -892,6 +892,5 @@ html {
 }
 
 .opacity {
-  background-color: #000;
-  opacity: .2;
+  background-color: rgb(0 0 0 / .1);
 }
