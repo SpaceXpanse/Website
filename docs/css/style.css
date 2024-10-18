@@ -890,3 +890,8 @@ html {
     visibility: hidden !important;
     display: none !important;
 }
+
+.opacity {
+  background-color: #000;
+  opacity: .5;
+}
