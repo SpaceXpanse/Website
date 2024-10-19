@@ -880,6 +880,10 @@ html {
         height: 100%;
         object-fit: cover;
     }
+    
+    .slide-box {
+        min-height: 150px;
+    }
 }
 /*
 .back-to-top {
@@ -893,6 +897,6 @@ html {
 
 .slide-box {
     background-color: rgb(0 0 0 / .1);
-    min-height: 300px;
+    min-height: 250px;
     padding: 20px;
 }
