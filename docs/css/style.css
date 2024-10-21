@@ -871,7 +871,7 @@ html {
 @media (max-width: 768px) {
     #header-carousel .carousel-item {
         position: relative;
-        /*min-height: 450px;*/
+        min-height: 250px;
     }
     #carousel .carousel-item {
         position: relative;
@@ -897,6 +897,6 @@ html {
 
 .slide-box {
     background-color: rgb(0 0 0 / .1);
-    /*min-height: 20px; */
+    /min-height: 350px; 
     padding: 20px;
 }
