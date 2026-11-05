@@ -458,7 +458,8 @@ h6,
     z-index: 9;
 }
 
-.team .team-item:hover .team-img .team-icon .team-icon-share {
+.team .team-item:hover .team-img .team-icon .team-icon-share,
+.team .team-item:focus-within .team-img .team-icon .team-icon-share {
     margin-top: 0 !important;
 }
 
