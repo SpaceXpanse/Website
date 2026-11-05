@@ -52,7 +52,6 @@ body{
 	margin:0;
 	font-family: 'Montserrat', sans-serif;
 	font-weight:400;
-	overflow-x:hidden;
 	color:#333;
 	font-size:14px;
 	
@@ -378,6 +377,17 @@ section.bwt-sellrate p{ font-size:16px; font-weight:400; color:#555; line-height
 section.bwt-sellrate a{ display:inline-block; background:#00BCF2; color:#fff; padding:13px 20px; margin:25px 0 0 0; text-transform:uppercase; font-weight:300; border-radius:3px; height:50px; font-size:16px; letter-spacing:1px; }
 section.bwt-sellrate a.external{ padding:0 !important; margin:0 !important; height: 100%; text-transform:none !important; color: #00BCF2 !important; background: none !important; }
 section.bwt-sellrate a:hover{ background:#333; color:#fff; }
+
+#specs a,
+.bwt-sellrate .bdr h2 {
+  overflow-wrap: anywhere;
+}
+
+.coin-converter-container {
+  width: 280px;
+  max-width: 100%;
+  overflow-x: auto;
+}
 
 /* CONTACT * -------------------------- */
 
